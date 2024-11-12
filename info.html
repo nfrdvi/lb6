@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Лабораторная работа 6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./info.html">Информация об актрисе</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./films.html">Фильмография актрисы</a>
+                </li>
+            </ul>
+
+            <div class="flexbox1">
+                <button id="collapseExample" class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Меню
+                </button>
+            </div>
+
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section1">Карусель</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2">Карточки</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section3">Биография</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+    </div>
+
+    <div id="section1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./1.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./2.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./5.jpg" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#section1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#section1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+        </button>
+    </div><br>
+
+
+    <h2 class="h2">Краткая фильмография актрисы:</h2>
+    <div class="flexbox" id="section2">
+
+        <div class="card" class="block-3" style="width: 400px;">
+            <img src="./эмма.jpg" class="card-img-top" alt="Постер Эмма">
+            <div class="card-body">
+                <h5 class="card-title">"Эмма" 2020 года</h5>
+                <p class="card-text">Англия, XIX век. 21-летняя провинциалка Эмма Вудхаус красива, богата, остроумна и
+                    считает,
+                    что прекрасно разбирается в людях. Девушка решила, что никогда не выйдет замуж и не оставит отца
+                    одного.
+                    Когда её подруга в связи с собственным замужеством переезжает в дом супруга, Эмма находит себе новую
+                    компаньонку —
+                    сироту Гарриет Смит — и теперь, используя все свои хитрости, пытается устроить девушке личную жизнь.
+                </p>
+                <a href="https://www.kinopoisk.ru/film/1244402/" class="btn btn-outline-primary">Ссылка на Кинопоиск</a>
+            </div>
+        </div>
+
+        <div class="card" class="block-3" style="width: 400px;">
+            <img src="./мутанты.jpg" class="card-img-top" alt="Постер Новые мутанты">
+            <div class="card-body">
+                <h5 class="card-title">"Новые мутанты" 2020 года</h5>
+                <p class="card-text">После нашествия на её резервацию загадочного торнадо и гибели отца Дэниель Мунстар
+                    приходит в себя связанной на больничной койке.
+                    Доктор Рейес сообщает девушке, что она — единственная выжившая, и теперь вместе с четырьмя
+                    подростками
+                    находится в специализированном учреждении,
+                    где их изучают и учат контролировать свои сверхспособности. Вскоре Дэни выясняет, что покинуть
+                    огороженную силовым полем территорию невозможно,
+                    а ребят начинают преследовать кажущиеся очень реальными кошмары.</p>
+                <a href=" https://www.kinopoisk.ru/film/910085/" class="btn btn-outline-primary">Ссылка на Кинопоиск</a>
+            </div>
+        </div>
+
+        <div class="card" class="block-3" style="width: 400px;">
+            <img src="./сплит.jpg" class="card-img-top" alt="Постер Сплит">
+            <div class="card-body">
+                <h5 class="card-title">"Сплит" 2017 года</h5>
+                <p class="card-text">Cредь бела дня с многолюдной парковки незнакомец похищает трёх школьниц. Они
+                    приходят в
+                    себя в закрытом помещении,
+                    а в душе владельца таятся 23 лика страха. Сменяя друг друга, личности ведут обычную для них жизнь —
+                    работают и ходят к психотерапевту,
+                    периодически напоминая пленницам, что они дожидаются 24-ю личность, которая скоро явит себя миру.
+                </p>
+                <a href="https://www.kinopoisk.ru/film/930534/" class="btn btn-outline-primary">Ссылка на Кинопоиск</a>
+            </div>
+        </div>
+        <div class="card" class="block-3" style="width: 400px;">
+            <img src="./ход королевы.jpg" class="card-img-top" alt="Постер Ход королевы">
+            <div class="card-body">
+                <h5 class="card-title">"Ход королевы" (мини–сериал) 2020 года</h5>
+                <p class="card-text">Штат Кентукки, 1957 год. После смерти матери 9-летняя Элизабет Хармон остаётся
+                    сиротой
+                    и отправляется в католический приют.
+                    В этом заведении детям регулярно дают «витамины», и по совету другой подопечной Бет оставляет
+                    зелёные
+                    капсулы на ночь. Там же девочка знакомится
+                    с пожилым уборщиком Шайбелем, которого просит научить её играть в шахматы. Днём, сбежав со скучных
+                    занятий под предлогом помыть тряпку, Бет играет
+                    с мистером Шайбелем в его подвальной подсобке, а ночью, приняв зелёную капсулу, прокручивает
+                    шахматные
+                    партии на потолке общей спальни.
+                    Через несколько лет девочку удочерят, у неё начнётся совсем другая жизнь, но главную роль в ней
+                    будет
+                    играть любовь к шахматам.</p>
+                <a href="https://www.kinopoisk.ru/series/1253633/" class="btn btn-outline-primary">Ссылка на
+                    Кинопоиск</a>
+            </div>
+        </div>
+
+        <div class="card" class="block-3" style="width: 400px;">
+            <img src="./Прошлой ночью в сохо.jpg" class="card-img-top" alt="Постер Прошлой ночью в Сохо">
+            <div class="card-body">
+                <h5 class="card-title">"Прошлой ночью в Сохо" 2021 года</h5>
+                <p class="card-text">
+                    Молодая провинциалка Элоиз без ума от 1960-х. Всю жизнь она прожила с бабушкой, но теперь едет
+                    учиться в Лондон на дизайнера одежды. Не сумев приспособиться к шумной жизни в общежитии, девушка
+                    переезжает в более привычную обстановку — снимает давно не видавшую ремонта комнату у пожилой
+                    хозяйки. В первую же ночь на новом месте Элоиз видит то ли очень реалистичный сон, то ли и впрямь
+                    переносится в любимую эпоху в образе эффектной блондинки, которая вознамерилась покорить ночной
+                    Сохо.</p>
+                <a href="https://www.kinopoisk.ru/film/1236583/" class="btn btn-outline-primary">Ссылка на Кинопоиск</a>
+            </div>
+        </div>
+        <div class="card" class="block-3" style="width: 400px;">
+            <img src="./меню.jpg" class="card-img-top" alt="Постер Меню">
+            <div class="card-body">
+                <h5 class="card-title">"Меню" 2022 года</h5>
+                <p class="card-text">Молодая пара в компании других богатеев отправляется на эксклюзивный ужин в
+                    знаменитый ресторан, который находится на небольшом острове. Одно изысканное блюдо сменяет другое,
+                    когда выясняется, что шеф-повар и его команда неплохо изучили сегодняшних гостей и прекрасно
+                    осведомлены не только об их вкусовых предпочтениях. И кроме того, меню содержит неприятные сюрпризы.
+                </p>
+                <a href="https://www.kinopoisk.ru/film/1257264/" class="btn btn-outline-primary">Ссылка на Кинопоиск</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="section3">
+        <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSection3"
+                aria-expanded="false" aria-controls="collapseSection3">
+                Краткая информация об актрисе
+            </button>
+        </p>
+
+        <div class="collapse" id="collapseSection3">
+            <div class="card card-body">
+                <h3>Аня Тейлор-Джой</h3>
+                Аня Джо́зефин Мари Те́йлор-Джой (англ. Anya Josephine Marie Taylor-Joy; род. 16 апреля 1996, Майами,
+                Флорида) — британо-аргентинская модель и актриса. Обладательница премии «Золотой глобус», премии
+                Американской гильдии киноактёров, «Эмми». Была номинирована на премию BAFTA.
+            </div>
+            <div class="card card-body">
+                <h3>Биография</h3>
+                Аня Джозефин Мэри Тейлор-Джой родилась 16 апреля 1996 года в Майами, США. Девушка — младшая из шести
+                детей в
+                семье. У её матери британские и испанские корни, а отец — аргентинец британского происхождения.
+
+                До 8 лет актриса знала только испанский язык, затем выучила английский. В школьные годы она вместе со
+                своей
+                семьёй переехала в Великобританию. Девочка испытывала сложности в школе в общении с другими детьми. По
+                её
+                словам, её просто не понимали. В детстве она часто бывала одинока.
+
+                Аня обучалась в школе Hill House в Кенсингтоне, в школе Northlands в Аргентине и в лондонской Queen’s
+                Gate.
+                Во время учёбы в старших классах, девушка стала работать в модельном бизнесе и заключила контракт с
+                модельным агентством. В возрасте 14 лет она переехала в Нью-Йорк. В 2014 году Аня снялась в
+                эпизодической
+                роли в сериале «Молодой Морс». В том же году она сыграла в «Академии вампиров», но кадры с ней не вошли
+                в
+                итоговую версию работы, имя актрисы не было указано в титрах.
+                В возрасте 16 лет бросила школу, чтобы продолжить актерскую карьеру. После серии небольших ролей на
+                телевидении ее прорыв произошел с главной ролью в фильме ужасов "Ведьма" (2015). Она продолжила
+                сниматься в
+                фильмах ужасов "Сплит" (2016) и его продолжении "Стекло" (2019), черной комедии "Чистокровные" (2017) и
+                телевизионном криминально-драматическом сериале "Острые козырьки" (2019-2022).
+            </div>
+            <div class="card card-body">
+                <h3>Личная жизнь</h3>
+                В феврале 2022 года актриса стала появляться на публике с музыкантом Малкольмом Макреем.
+                В июне 2022 года стало известно, что Аня Тейлор-Джой и Малкольм Макрей помолвлены — у актрисы на
+                безымянном
+                пальце появилось помолвочное кольцо. А в июле 2022 года появилась информация о том, что пара поженилась.
+                После росписи в США они улетели в Австралию, где проходили съёмки одной из картин, в которой снималась
+                актриса.
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

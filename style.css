@@ -1,0 +1,17 @@
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.block-3 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.h2 {
+    text-align: center;
+}
